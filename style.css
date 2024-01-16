@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
 * {
     padding: 0;
     margin: 0;
@@ -13,18 +14,6 @@
     --squid: #0e0e0e;
     --greysquid: #9A9A9A;
 }
-@font-face {
-    font-family: Neue-Montreal-Reg;
-    src: url(font/NeueMontreal-Regular.otf);
-}
-@font-face {
-    font-family: Neue-Montreal-Med;
-    src: url(font/NeueMontreal-Medium.otf);
-}
-@font-face {
-    font-family: Neue-Montreal-Bold;
-    src: url(font/NeueMontreal-Bold.otf);
-}
 body{
     font-family: Neue Montreal;
     background-color: var(--squid);
@@ -36,6 +25,7 @@ body{
     margin-left: 2%;
     margin-right: 2%;
     transition: ease-in 0.8s;
+    font-family: Neue Montreal;
 }
 .thehead .logo{
     font-size: 3rem;
