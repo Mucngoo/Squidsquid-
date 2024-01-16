@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KewtSquid</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <script src="https://kit.fontawesome.com/d535fdea96.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="thehead">
+        <div class="logo">
+            <a href="homepage.html"><i class="fa-solid fa-earth-americas"></i></a>
+        </div>
+        <div class="navbar">
+            <ul class="listofbutton">
+                <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                <li id="tool"></i><a href=""><i class="fa-solid fa-screwdriver-wrench"></i> Tools</a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="">Tool 1</a></li>
+                            <li><a href="">Tool 2</a></li>
+                            <li><a href="">Tool 3</a></li>
+                    </div>
+                </li>
+                <li><a href="">World View</a></li>
+                <li><a href="">Country View</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <p class="title">Find country with average temp and population</p>
+    <p class="subtitle">Enter population or temperature to find countries</p>
+
+    <div class="container">
+        <div class="squid filter">
+            <div class="squidhead">Filter:</div>
+            <input
+              type="text"
+              id="country-input"
+              class="input-box"
+              placeholder="Min population">
+            </input>
+            <div>to</div>
+            <input
+              type="text"
+              id="country-input"
+              class="input-box"
+              placeholder="Max population">
+            </input>
+            <div>or</div>
+            <input
+              type="text"
+              id="country-input"
+              class="input-box"
+              placeholder="Min avg.temp">
+            </input>
+            <div>to</div>
+            <input
+              type="text"
+              id="country-input"
+              class="input-box"
+              placeholder="Max avg.temp">
+        </div>
+        <div class="squid result">
+            <div class="wrap">
+                <div class="squidlabel">Country with a selected range of data</div>
+                <div class="squidborder">
+                    <table>
+                        <tr>
+                            <td>Country</td>
+                            <td>Population</td>
+                            <td>Average temperature</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Population</td>
+                            <td>Average temperature</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Population</td>
+                            <td>Average temperature</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Population</td>
+                            <td>Average temperature</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Population</td>
+                            <td>Average temperature</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
