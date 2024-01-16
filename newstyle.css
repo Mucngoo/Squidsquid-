@@ -102,9 +102,9 @@ body{
 }
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    padding: 70px 180px 0px 180px;
+    padding: 70px 150px 0px 150px;
     gap: 60px;
 }
 .filter{
@@ -115,7 +115,18 @@ body{
     background: none; 
     border-radius: 18px;
     padding: 45px 0px 45px 0px;
+    gap: 70px;
+}
+.wrap2 {
+    display: flex;
     gap: 20px;
+}
+.squidhead{
+    padding-left: 100px;
+    background: none;
+    font-weight: medium;
+    font-size: 1.6rem;
+    color: white;
 }
 .input-box{
     background-color: var(--squid);
@@ -125,9 +136,18 @@ body{
     outline: none;
     width: 130px;
     height: 40px;
+    color: white;
 }
 .input-box:focus{
     color: white;
+}
+button{
+    border-radius: 55px;
+    border: 2px solid aliceblue; 
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 35px 10px 35px;
 }
 .result{
     border: 1px solid rgba(41, 213, 210, 0.563);
@@ -135,13 +155,6 @@ body{
     background: linear-gradient(110deg, rgba(44,107,136,0.499124649859944) 0%, rgba(0,0,0,0.364670868347339) 39%, rgba(0,0,0,0.46271008403361347) 56%, rgba(31,117,54,0.3478641456582633) 100%);
     border-radius: 18px;
     padding: 45px 0px 110px 20px;
-}
-.squidhead{
-    padding-left: 100px;
-    background: none;
-    font-weight: medium;
-    font-size: 1.6rem;
-    color: white;
 }
 .squidlabel{
     background: none;
