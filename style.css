@@ -140,15 +140,16 @@ select {
     color: white;
     border: 2px solid white;
 }
-
 .custommenu {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 20px;
+    gap: 30px;
 }
-.customenu select{
+.custommenu select{
     height: 100%;
+    border-radius: 43px;
+    padding: 0 20px;
 }
 .subform {
     font-size: 1.4rem;
