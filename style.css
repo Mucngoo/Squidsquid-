@@ -156,7 +156,7 @@ body {
 
 select {
     padding: 6px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-radius: 20px;
     background-color: black;
     color: white;
@@ -177,25 +177,24 @@ select {
     background: rgba(255, 255, 255, 0);
     flex-direction: row;
     gap: 15px;
+    font-size: 1.1rem;
 }
 
-.filter-wrap {
+.squidshoulder {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 25px;
 }
 
-.filter-wrap select {
+.squidshoulder select {
     height: 100%;
     border-radius: 40px;
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 
 .squidbody {
     width: 100%;
-
 }
-
 
 .squidbody,
 .squidmenu {
@@ -203,15 +202,29 @@ select {
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
-
 }
 
+.squidmenu{
+    margin-right: 38px;
+}
 
-.subform {
-    font-size: 1.4rem;
-    background: none;
-    border: none;
+.squidmenu select{
+    background-color: transparent;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+}
+
+.squidmenu select option{
+    background-color: black;
+}
+
+button {
+    border-radius: 55px;
+    border: 2px solid aliceblue;
+    background: rgba(255, 255, 255, 0);
     color: white;
+    font-size: 1.1rem;
+    padding: 10px 35px 10px 35px;
 }
 
 .result {
@@ -234,12 +247,12 @@ select {
     background: none;
     border-radius: 18px;
     height: 480px;
-    width: 100%;
+    width: 97%;
 }
 
 .wrap {
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -263,13 +276,4 @@ td {
 
 tr:nth-child(even) {
     background-color: #d9d9d920;
-}
-
-button {
-    border-radius: 55px;
-    border: 2px solid aliceblue;
-    background: rgba(255, 255, 255, 0);
-    color: white;
-    font-size: 1.1rem;
-    padding: 10px 35px 10px 35px;
 }
