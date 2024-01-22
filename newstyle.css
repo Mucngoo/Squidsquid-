@@ -149,6 +149,10 @@ button{
     font-size: 1.1rem;
     padding: 10px 35px 10px 35px;
 }
+button:active{
+    border: 2px solid rgb(114, 255, 199);
+    color: rgb(115, 255, 206);
+}
 .result{
     border: 1px solid rgba(41, 213, 210, 0.563);
     background: rgb(44,107,136);
