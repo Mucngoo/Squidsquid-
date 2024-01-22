@@ -124,58 +124,75 @@ body{
     margin: 0 auto;
     width: 93%
 }
-.dropdown button{
-    border-radius: 55px;
-    border: 2px solid aliceblue; 
-    background: rgba(255, 255, 255, 0);
+select {
+    padding: 6px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    background-color: black;
     color: white;
-    padding: 10px 25px;
+    border: 2px solid white;
+}
+
+.custommenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.thesub button {
+    display: flex;
+    border: 2px solid aliceblue;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    gap: 15px;
     font-size: 1.1rem;
 }
-.dropdown a{
-    display: block;
-    color: #9D9D9D;
-    text-decoration: none;
-    padding: 10px 25px;
+
+.thesub button:hover {
+    box-shadow: 0px 0px 20px #ffffff53;
+    background: rgba(255, 255, 255, 0);
+    outline: none;
 }
-.dropdown .country-content{
-    display: none;
-    position: absolute;
+
+.thesub button:active {
+    border: 2px solid rgb(107, 253, 255);
+    background: rgba(255, 255, 255, 0);
+    color: rgb(126, 221, 255);
+    outline: none;
 }
-.dropdown:hover .country-content{
-    display: block;
+
+.squidshoulder {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
-.dropdown .state-content{
-    display: none;
-    position: absolute;
+
+.squidshoulder select {
+    height: 100%;
+    border-radius: 40px;
+    padding: 0px 20px;
 }
-.dropdown:hover .state-content{
-    display: block;
+.choosen{
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid aliceblue; 
+    background: none; 
+    border-radius: 18px;
+    padding: 0px 0px 0px 0px;
+    gap: 10px;
+    flex-direction: column;
 }
-.dropdown .city-content{
-    display: none;
-    position: absolute;
-}
-.dropdown:hover .city-content{
-    display: block;
-}
-.dropdown .startyear-content{
-    display: none;
-    position: absolute;
-}
-.dropdown:hover .startyear-content{
-    display: block;
-}
-.dropdown .endyear-content{
-    display: none;
-    position: absolute;
-}
-.dropdown:hover .endyear-content{
-    display: block;
-}
-.dropdown a:hover{
-    color:white;
-    border-bottom: 3px solid white;
+.squidmiddle{
+    padding-left: 50px;
+    background: none;
+    font-weight: medium;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 0px 0px 80px #ffffff58;
 }
 .result{
     border: 1px solid rgba(41, 213, 210, 0.563);
