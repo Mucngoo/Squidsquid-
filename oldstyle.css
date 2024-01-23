@@ -194,16 +194,17 @@ select {
     color: white;
     text-shadow: 0px 0px 80px #ffffff58;
 }
-.squilsmall{
+.squidsmall{
     display: flex;
     color: white;
     font-size: 1.5rem;
     border: 1px solid aliceblue; 
     background: none; 
     border-radius: 18px;
-    padding: 20px 0px 20px 0px;
-    gap: 10px;
     flex-direction: column;
+}
+.squidsmall table{
+    padding: 30px 40px 20px 20px;
 }
 .result{
     border: 1px solid rgba(41, 213, 210, 0.563);
