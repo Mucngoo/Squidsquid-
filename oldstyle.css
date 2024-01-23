@@ -182,29 +182,31 @@ select {
     border: 1px solid aliceblue; 
     background: none; 
     border-radius: 18px;
-    padding: 20px 0px 20px 0px;
-    gap: 10px;
+    padding: 25px 0px 40px 0px;
+    gap: 30px;
     flex-direction: column;
 }
 .squidmiddle{
-    padding-left: 50px;
+    padding-left: 60px;
     background: none;
-    font-weight: medium;
-    font-size: 1.8rem;
+    font-weight: 500;
+    font-size: 1.9rem;
     color: white;
     text-shadow: 0px 0px 80px #ffffff58;
 }
 .squidsmall{
+    margin: 0 auto;
+    width: 91%;
     display: flex;
-    color: white;
-    font-size: 1.5rem;
-    border: 1px solid aliceblue; 
-    background: none; 
-    border-radius: 18px;
+    gap: 20px;
     flex-direction: column;
+    background: none;
+    border: 2px solid aliceblue;
+    border-radius: 18px;
 }
 .squidsmall table{
-    padding: 30px 40px 20px 20px;
+    font-weight: 500;
+    border-collapse: collapse;
 }
 .result{
     border: 1px solid rgba(41, 213, 210, 0.563);
@@ -234,7 +236,7 @@ select {
     flex-direction: column;
     background: none;
 }
-table {
+.wrap table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 40px;
