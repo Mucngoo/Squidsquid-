@@ -113,9 +113,9 @@ body{
 .squidhead{
     padding-left: 50px;
     background: none;
-    font-weight: medium;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: white;
+    font-weight: 480;
 }
 .holder{
     display: flex;
@@ -178,7 +178,6 @@ select {
 .choosen{
     display: flex;
     color: white;
-    font-size: 1.5rem;
     border: 1px solid aliceblue; 
     background: none; 
     border-radius: 18px;
@@ -189,7 +188,7 @@ select {
 .squidmiddle{
     padding-left: 60px;
     background: none;
-    font-weight: 500;
+    font-weight: 480;
     font-size: 1.9rem;
     color: white;
     text-shadow: 0px 0px 80px #ffffff58;
@@ -213,7 +212,7 @@ select {
     background: rgb(44,107,136);
     background: linear-gradient(60deg, rgba(44,107,136,0.499124649859944) 0%, rgba(0,0,0,0.364670868347339) 39%, rgba(0,0,0,0.46271008403361347) 56%, rgba(31,117,54,0.3478641456582633) 100%);
     border-radius: 18px;
-    padding: 60px 0px 80px 20px;
+    padding: 30px 0px 50px 20px;
 }
 .squidlabel{
     background: none;
@@ -241,7 +240,7 @@ select {
     border: 2px solid aliceblue; 
     background: none; 
     border-radius: 18px;
-    height: 480px;
+    height: 330px;
     width: 95%;
 }
 .wrap{
@@ -255,7 +254,7 @@ select {
 .wrap table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }  
 th, td {
     text-align: center;
@@ -263,6 +262,9 @@ th, td {
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 435;
+}
+tr .head{
+    font-weight: 800;
 }
 tr:nth-child(even) {
     background-color: #d9d9d920;
