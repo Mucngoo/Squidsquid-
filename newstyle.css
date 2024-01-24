@@ -172,6 +172,7 @@ button:active{
     border-radius: 18px;
     height: 480px;
     width: 95%;
+    overflow: auto;
 }
 .wrap{
     margin: 0 auto;
@@ -196,4 +197,17 @@ th, td {
 }
 tr:nth-child(even) {
     background-color: #d9d9d920;
+}
+*::-webkit-scrollbar-track {
+    background-color: #F9CA8C;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: #b9b8b8;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffa600;
+    border-radius: 20px;
 }
