@@ -164,7 +164,9 @@ body {
     background: rgba(255, 255, 255, 0);
     color: rgb(126, 255, 160);
 }
-
+a{
+    color: white;
+}
 select {
     padding: 6px;
     font-size: 1.1rem;
