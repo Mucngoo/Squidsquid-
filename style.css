@@ -311,3 +311,7 @@ table .submit:hover{
 table .submit:active{
     color:rgb(250, 113, 113)
 }
+table button{
+    border: none;
+    
+}
