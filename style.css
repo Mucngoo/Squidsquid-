@@ -324,12 +324,12 @@ table button{
 
 *::-webkit-scrollbar {
     width: 10px;
-    background-color: #b9b8b8;
-    position: absolute;
+    background-color: #d9d9d920;
+    border-radius: 30px;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #ffa600;
+    background-color: #ffffffaf;
     border-radius: 20px;
 }
 
