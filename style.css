@@ -276,7 +276,10 @@ button {
     height: 480px;
     width: 97%;
 }
-
+.squidborder table{
+    height: 100%;
+    overflow: auto;
+}
 .wrap {
     margin: 0 auto;
     width: 90%;
@@ -313,5 +316,4 @@ table .submit:active{
 }
 table button{
     border: none;
-    
 }
