@@ -242,7 +242,7 @@ select {
     background: rgb(44, 107, 136);
     background: linear-gradient(60deg, rgba(44, 107, 136, 0.499124649859944) 0%, rgba(0, 0, 0, 0.364670868347339) 39%, rgba(0, 0, 0, 0.46271008403361347) 56%, rgba(31, 117, 54, 0.3478641456582633) 100%);
     border-radius: 18px;
-    padding: 60px 0px 80px 00px;
+    padding: 40px 0px 50px 30px;
 }
 .result:hover{
     border: 1px solid rgba(81, 255, 252, 0.647);
