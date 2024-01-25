@@ -18,62 +18,88 @@ body{
     font-family: Neue Montreal;
     background-color: var(--squid);
 }
-.thehead{
-    padding: 2rem;
+
+.header {
+    width: 100vw;
+    height: auto;
+}
+
+.thehead {
+    position: absolute;
+    width: 100%;
+}
+
+.thehead-wrap {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
-    transition: ease-in 0.8s;
-    font-family: Neue Montreal;
+    align-items: center;
+
+
 }
-.thehead .logo{
+
+
+.thehead .logo {
     font-size: 3rem;
-    
+    margin: 1rem 2rem
 }
-.thehead .logo a{
+
+.thehead .logo a {
     color: #9A9A9A;
 }
-.thehead .navbar .listofbutton{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+
+.thehead .navbar {
+    margin: 0 2rem;
 }
-.thehead .navbar .listofbutton li{
-    width:max-content;
+
+.thehead .navbar .listofbutton {
+    list-style: none;
+}
+
+.thehead .navbar .listofbutton li {
+    display: inline-block;
+    width: max-content;
     padding: 20px;
     position: relative;
 }
-.thehead .navbar .listofbutton a{
+
+.thehead .navbar .listofbutton a {
     text-decoration: none;
     color: #9A9A9A;
     font-size: 1.2rem;
-    padding-bottom: 5px;
     font-family: 'Neue-Montreal-Med', 'sans-serif';
 }
-.thehead .navbar .listofbutton a:hover{
-    color:white;
+
+.thehead .navbar .listofbutton a:hover {
+    color: white;
     border-bottom: 3px solid white;
     transition: ease-in-out 0.2s;
 }
-.submenu{
+
+.submenu {
     display: none;
     position: absolute;
-   
+    z-index: 999;
+
 }
-.submenu ul{
+
+.submenu ul li {
     list-style: none;
     display: block;
+    height: 15px;
 }
-#tool:hover .submenu{
+
+#tool:hover .submenu {
     display: block;
     position: absolute;
-    background-color:transparent;
+    background-color: transparent;
     width: 150px;
-    height: 100px;
+    height: 200px;
     transition: ease-in 0.8s;
 }
+
+
 .title{
     color: white;
     text-align: center;

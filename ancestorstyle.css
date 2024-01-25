@@ -23,33 +23,46 @@ body {
     background-color: var(--squid);
 }
 
+.header {
+    width: 100vw;
+    height: auto;
+}
+
 .thehead {
-    padding: 2rem;
+    position: absolute;
+    width: 100%;
+}
+
+.thehead-wrap {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
-    transition: ease-in 0.8s;
-    font-family: Neue Montreal;
+    align-items: center;
+
+
 }
+
 
 .thehead .logo {
     font-size: 3rem;
-
+    margin: 1rem 2rem
 }
 
 .thehead .logo a {
     color: #9A9A9A;
 }
 
+.thehead .navbar {
+    margin: 0 2rem;
+}
+
 .thehead .navbar .listofbutton {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
 }
 
 .thehead .navbar .listofbutton li {
+    display: inline-block;
     width: max-content;
     padding: 20px;
     position: relative;
@@ -59,7 +72,6 @@ body {
     text-decoration: none;
     color: #9A9A9A;
     font-size: 1.2rem;
-    padding-bottom: 5px;
     font-family: 'Neue-Montreal-Med', 'sans-serif';
 }
 
@@ -72,12 +84,14 @@ body {
 .submenu {
     display: none;
     position: absolute;
+    z-index: 999;
 
 }
 
-.submenu ul {
+.submenu ul li {
     list-style: none;
     display: block;
+    height: 15px;
 }
 
 #tool:hover .submenu {
@@ -85,7 +99,7 @@ body {
     position: absolute;
     background-color: transparent;
     width: 150px;
-    height: 100px;
+    height: 200px;
     transition: ease-in 0.8s;
 }
 
