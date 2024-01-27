@@ -229,16 +229,26 @@ input{
     border: none;
     color: white;
 }
-.infoforyear{
-    font-size: 2rem;
-    width: 40%;
+.squidborder {
+    border: 2px solid aliceblue;
+    background: none;
+    border-radius: 18px;
+    height: 480px;
+    width: 97%; 
+    overflow: auto;
 }
-.infosforyear tr th{
+.squidborder table{
+    height: 100%;
+    overflow: auto;
+    font-size: 1.5rem;
+    padding-right: 100px;
+}
+.squidborder tr th{
     width: 300px;
     font-size: 1.2rem;
     font-family:Neue-Montreal-Bold;
 }
-.infosforyear tr td{
+.squidborder tr td{
     width: 350px;
     text-align: center;
 }
@@ -246,9 +256,7 @@ input{
     grid-column: 3/4;
     grid-row: 1/2;
 }
-.box__3 h1 {
-    padding-bottom: 10px;
-}
+
 .selectContainer{
     display: flex;
     flex-direction: row;
@@ -268,9 +276,8 @@ input{
     height: 70%;
     border-radius: 5%;
     line-height: 1.5;
-    overflow-y: auto;
+    overflow: auto;
 }
-
 
 .ranking ol {
     list-style-position: inside;
